@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/hbd-monomu/',
   resolve: {
     alias: {
       // Alias @ to the src directory
